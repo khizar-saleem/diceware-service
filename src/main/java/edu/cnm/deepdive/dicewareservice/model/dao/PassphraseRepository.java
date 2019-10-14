@@ -7,5 +7,5 @@ import org.springframework.data.repository.CrudRepository;
 public interface PassphraseRepository extends CrudRepository<Passphrase, Long> {
 
   Optional<Passphrase> getFirstByKey(String key);
-  
+
 }
